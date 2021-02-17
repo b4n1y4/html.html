@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index.html</title>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<style>
+		*{
+			font-family:'Courier New';
+		}
+		.tags{
+			color: purple;
+		}
+		.paratext{
+			color:black;
+		}
+		.comment{
+			color:green;
+			font-style: oblique;
+		}
+		.blink {
+		  font-weight: 100;
+		  font-size: 30px;
+		  color: #2E3D48;
+		  animation: 0.75s blink step-end infinite;
+		}
+
+		@keyframes "blink" {
+		  from, to {
+		    color: transparent;
+		  }
+		  50% {
+		    color: black;
+		}
+		}
+		.link{
+			text-decoration: none;
+			color:black;
+		}
+		.link:hover{
+			color:white;
+		}
+
+	</style>
+</head>
+<body>
+	<h2 style="color:rgb(51, 153, 255); font-style: oblique;">&#60;&#33;DOCTYPE html&#62;</h2>
+		<h2 class="tags">&#60;html&#62;</h2>
+
+			<!-- head -->
+			<h2 class="main tags">&#60;head&#62;</h2>
+				<h2 style="padding-left: 2em;" class="tags">&#60;title&#62;<span class="paratext">index.html</span>&#60;/title&#62;</h2>
+			<h2 class="tags">&#60;/head&#62;</h2>
+			<h2 class="comment tags">&#60;&#33;&#45;&#45; sori &#45;&#45;&#62;</h2>
+
+			<!-- body -->
+			<h2 class="main tags">&#60;body&#62;</h2>
+				<h2 style="padding-left: 2em;" class="tags">&#60;h2&#62;<span class="paratext">About this website</span>&#60;/h2&#62;</h2>
+				<h2 style="padding-left: 4em;" class="tags">&#60;p&#62;<span class="paratext">This site was created by 3 innocent coders</span>&#60;/p&#62;</h2>
+				<h2 style="padding-left: 4em;" class="tags">&#60;p&#62;<span class="paratext">This html website is written in html that looks like html and IT IS HTML.</span>&#60;/p&#62;</h2>
+				<h2 style="padding-left: 4em;" class="tags">&#60;p&#62;<span class="paratext">We were part of a human experiment where we were put in <a class = "link" href="dark.html">dark</a> rooms with bright screens, forced to code HTML in order to hack NAS<span class="blink">_</span></span>&#60;/p&#62;</h2>
+			<h2 class="tags">&#60;/body&#62;</h2>
+
+	<h2 class="tags">&#60;/html&#62;</h2>
+</body>
+</html>
